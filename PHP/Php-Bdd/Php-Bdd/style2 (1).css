@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 65%;
+    margin: 10px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: rgb(95, 176, 243);
+    height: 26px;
+}
+
+td {
+    border: 1px solid silver;
+}
+
+tr:hover {
+    background-color: rgb(231, 229, 227);
+}

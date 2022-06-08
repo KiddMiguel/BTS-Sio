@@ -1,0 +1,70 @@
+body{
+	font-family: 'futura';
+	background: rgb(32, 32, 32);
+}
+
+header{
+	width: fit-content;
+	margin:  auto;
+	color:  white;
+	text-shadow: 1px 1px 2px black;
+}
+section{
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: rgb(221, 221, 221);
+	width: 700px;
+	margin : 20px auto;
+	padding:  20px;
+}
+section h2{
+	text-transform: uppercase;
+	color: rgb(41, 40, 32);
+	text-align: center;
+	text-decoration: underline solid black;
+}
+section table{
+	width: 80%;
+	margin: auto;
+	border:  3px rgb(56, 56, 56) solid;
+	text-align: center;
+}
+section table td{
+	padding: 4px;
+	margin:  0px;
+	border: 2px rgb(56, 56, 56) solid;
+	border-collapse: collapse;
+}
+section table img{
+	width: 100px;
+	height: auto;
+	margin: auto;
+}
+nav{
+	box-shadow: 3px 3px 2px black;
+}
+
+nav{
+	background: 	rgb(221, 221, 221);
+	border-radius: 10px;
+	width: 150px;
+	position: fixed;
+	left: 40px;
+}
+nav h4{
+	text-align: center;
+}
+img{
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+footer{
+	color:  white;
+	display: block;
+	position: static;
+	bottom: 0px;
+	padding-left:2% ;
+	width: 98%;
+	margin: 0px;
+}

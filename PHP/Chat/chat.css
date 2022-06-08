@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: bisque;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#container {
+    border-radius: 10px 10px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgb(39, 42, 54);
+}
+
+header h1 {
+    color: white;
+    border-bottom: 1px solid;
+}
+
+ul li {
+    overflow: auto;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid silver;
+    padding: auto;
+}
+
+strong {
+    color: white;
+}
+
+#content {
+    background-color: rgb(184, 104, 104);
+    border-radius: 10px;
+    padding: 5px 0px 15px 0px;
+    overflow: auto;
+}
+
+#form {
+    padding: 10px 10px;
+}
+
+form input,
+input[type="text"],
+textarea {
+    margin-bottom: 5px;
+    border: 2px solid rgb(184, 104, 104);
+}
+
+form input[type="submit"] {
+    background-color: rgb(184, 104, 104);
+    color: white;
+    border: 1px solid;
+}
+
+div a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}

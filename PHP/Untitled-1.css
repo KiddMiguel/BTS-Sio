@@ -1,0 +1,25 @@
+table {
+    width: 65%;
+    margin: 10px auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+th {
+    background-color: rgb(189, 62, 62);
+    height: 26px;
+    border: 2px solid rgb(189, 62, 62);
+}
+
+td {
+    border: 2px solid black;
+}
+
+tr:hover {
+    background-color: rgb(218, 218, 28);
+}

@@ -1,0 +1,100 @@
+body{
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+    background-color: #FFFFFF ;
+    border-radius: 10px;
+
+}
+
+li{
+    color: black;
+}
+
+ p{
+    color: black;
+}
+ul{
+    list-style-type: none;   
+}
+
+nav li {
+    
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 10px;
+    color: black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+nav
+{
+    flex: 1.2;
+    position: fixed ;
+    margin-top: 200px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+
+h2{
+    color: blue;
+}
+
+#présentation{
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#compétences{
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#hobbies{
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+#image{
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 10px;
+}

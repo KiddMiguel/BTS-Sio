@@ -1,0 +1,31 @@
+body {
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+}
+
+tr,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    padding: 20px;
+}
+
+input[type="submit"] {
+    font-size: 0.8em;
+}

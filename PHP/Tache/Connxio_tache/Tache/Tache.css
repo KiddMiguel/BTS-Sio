@@ -1,0 +1,79 @@
+body {
+    /* On centralise le tout */
+    margin: 0 auto;
+    width: 60%;
+    /* On met une image en fond (de préference j'ai choisi une image) */
+}
+
+h1 {
+    /* On aligne le titre au centre */
+    text-align: center;
+    color: black;
+    border-radius: 5px 5px;
+}
+
+.nav1 {
+    /* Ici c'est une balise "class" On n'a selectionner un élément à part entière */
+    color: rgb(173, 49, 49);
+    font-size: 16px;
+}
+
+.nav2 {
+    border-radius: 5px 5px;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+    border: 2px solid rgb(241, 161, 55);
+    background-color: rgb(43, 128, 185);
+    color: white;
+    font-size: 16px;
+}
+
+.nav2:hover {
+    background-color: white;
+    color: black;
+}
+
+span {
+    color: rgb(173, 49, 49);
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    width: 100%;
+}
+
+th {
+    padding: 0px 40px 0px 0px;
+    text-align: left;
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(173, 49, 49);
+}
+
+td {
+    border: 1px solid black;
+}
+
+.td_class {
+    background-color: rgb(43, 128, 185);
+    text-align: center;
+    color: white;
+}
+
+.td_class1 {
+    text-align: center;
+}
+
+.td_class_supp {
+    padding: 0px 0px 0px 0px;
+}
+
+.a_modif {
+    text-decoration: none;
+    color: rgb(43, 128, 185);
+}
+
+.a_modif1 {
+    text-align: center;
+}

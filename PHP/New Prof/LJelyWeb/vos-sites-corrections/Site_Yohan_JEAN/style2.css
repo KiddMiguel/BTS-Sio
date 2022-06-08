@@ -1,0 +1,97 @@
+body{
+	font-family: 'futura';
+	/*background: rgb(32, 32, 32);*/
+
+	background: linear-gradient(to right, steelblue, lightblue);
+}
+header{
+	width: fit-content;
+	margin:  auto;
+	color:  white;
+	text-shadow: 1px 1px 2px black;
+}
+section{
+	box-sizing: border-box;
+	border-radius: 10px;
+	background: rgb(221, 221, 221, 0.9);
+	width: 700px;
+	margin : 20px auto;
+	padding:  20px;
+}
+section h2{
+	text-transform: uppercase;
+	color: rgb(41, 40, 32);
+	text-align: center;
+	text-decoration: underline solid black;
+}
+section h3{
+	text-transform: uppercase;
+	color: rgb(41, 40, 32);
+	text-align: center;
+	text-decoration: underline dotted 2px black;
+}
+
+section img{
+	display: block; /*par defaut inline-block*/
+	width: 60%;
+	height: auto;
+
+	margin: 10px auto;
+}
+
+section table{
+	width: 80%;
+	margin: auto;
+	border:  3px rgb(56, 56, 56) solid;
+	text-align: center;
+}
+section table td{
+	padding: 4px;
+	margin:  0px;
+	border: 2px rgb(56, 56, 56) solid;
+	border-collapse: collapse;
+}
+section table img{
+	width: 100px;
+	height: auto;
+	margin: auto;
+}
+nav{
+	box-shadow: 3px 3px 2px black;
+}
+
+nav{
+	background: rgb(221, 221, 221, 0.9);
+	border-radius: 10px;
+	width: 175px;
+	position: fixed;
+	left: 40px;
+
+	padding-bottom: 25px;
+}
+nav ul{
+	text-align: center;
+
+	width: 90%;
+	margin: auto;
+	padding: 0px;
+	list-style: none;
+}
+
+nav h4{
+	text-align: center;
+}
+img{
+	width: 50%;
+	height: auto;
+	margin: auto;
+}
+footer{
+	color:  white;
+	display: block;
+	position: static;
+	bottom: 0px;
+	padding-left:2% ;
+	width: 98%;
+	margin: 0px;
+}

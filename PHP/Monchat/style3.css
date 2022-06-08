@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    width: 796.5px;
+    padding: 0;
+    background-color: rgb(11, 148, 156);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.user {
+    border: solid 3px rgb(44, 111, 174);
+    border-radius: 5px 5px 0px 0px;
+    width: 43%;
+    height: 400px;
+    background-color: white;
+}
+
+.chat {
+    border: solid 3px rgb(44, 111, 174);
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    margin-left: 20px;
+    height: 350px;
+    background-color: white;
+}
+
+label {
+    background-color: rgb(44, 111, 174);
+    color: white;
+    padding-top: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.message {
+    padding-left: 20px;
+    padding-right: 432.3px;
+}
+
+.messages {
+    border: solid 1px;
+    width: 95%;
+}
+
+ul {
+    height: 250px;
+    overflow: auto;
+}
+
+li {
+    list-style: none;
+    border: solid 1px rgb(216, 216, 216);
+    padding: 3px 0px 3px 5px;
+    margin-right: 50px;
+}
+
+input {
+    padding-left: 5px;
+    margin-top: 60px;
+    border: solid 1px rgb(44, 111, 174);
+    box-shadow: 5px 5px 5px rgb(44, 111, 174);
+}
+
+input[type="text"] {
+    width: 86.95%;
+    height: 33px
+}
+
+input[type="submit"] {
+    width: 10%;
+    padding: 6px 0px 9px 0px
+}
